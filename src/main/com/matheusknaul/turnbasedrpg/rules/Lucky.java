@@ -1,7 +1,7 @@
 package main.com.matheusknaul.turnbasedrpg.rules;
 
 public class Lucky {
-	private int number;
+	private final int number;
 
 	public Lucky() {
 		super();

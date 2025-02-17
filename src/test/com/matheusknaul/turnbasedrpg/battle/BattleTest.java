@@ -1,6 +1,7 @@
 package test.com.matheusknaul.turnbasedrpg.battle;
 
 import main.com.matheusknaul.turnbasedrpg.domain.Entity;
+import main.com.matheusknaul.turnbasedrpg.domain.Spell;
 import main.com.matheusknaul.turnbasedrpg.roles.Archer;
 import main.com.matheusknaul.turnbasedrpg.roles.EntityClass;
 import main.com.matheusknaul.turnbasedrpg.roles.Warrior;
@@ -18,6 +19,8 @@ public class BattleTest {
 		
 		goblinEnemy.displayStats();
 		hero.displayStats();
+		
+		Spell fireBall = new Spell("Fire ball", "A fire ball that burn to target.", 40, 0, 10, 5);
 	}
 
 }

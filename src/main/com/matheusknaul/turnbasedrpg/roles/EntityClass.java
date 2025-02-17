@@ -25,7 +25,9 @@ public class EntityClass {
 		this.spells = spells;
 	}
 	
-	
+	public void addSpell(Spell spell) {
+		spells.add(spell);
+	}
 	
 	
 	
