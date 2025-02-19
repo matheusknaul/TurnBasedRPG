@@ -1,6 +1,7 @@
 package test.com.matheusknaul.turnbasedrpg.battle;
 
 import main.com.matheusknaul.turnbasedrpg.domain.Entity;
+import main.com.matheusknaul.turnbasedrpg.domain.Character;
 import main.com.matheusknaul.turnbasedrpg.domain.Spell;
 import main.com.matheusknaul.turnbasedrpg.roles.Archer;
 import main.com.matheusknaul.turnbasedrpg.roles.EntityClass;
@@ -13,7 +14,7 @@ public class SpellTest {
 		fireBall.displayStats();
 
 		EntityClass archer = new Archer("Archer");
-		Entity hero = new Entity(1, "Matheus Knaul", archer);
+		Entity hero = new Character(1, "Matheus Knaul", archer);
 		hero.displayStats();
 		
 		Lucky lucky = new Lucky();

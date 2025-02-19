@@ -2,7 +2,7 @@ package main.com.matheusknaul.turnbasedrpg.domain;
 
 import main.com.matheusknaul.turnbasedrpg.roles.EntityClass;
 
-public class Entity {
+abstract public class Entity {
 	
 	//Basic info
 	
