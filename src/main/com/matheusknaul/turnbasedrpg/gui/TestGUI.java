@@ -17,7 +17,11 @@ public class TestGUI {
 			JButton createEnemyButton = new JButton("Criar inimigo");
 			createEnemyButton.addActionListener(e-> EnemyGUI.showEnemyGUI());
 			
+			JButton createItemButton = new JButton("Criar item");
+			createItemButton.addActionListener(e-> ItemGUI.showItemGUI());
+			
 			mainFrame.add(createEnemyButton);
+			mainFrame.add(createItemButton);
 			mainFrame.setVisible(true);
 		});
 	}
